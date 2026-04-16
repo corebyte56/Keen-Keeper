@@ -1,9 +1,10 @@
 import React from 'react'
+import Banner from '../../Compnents/Banner/Banner'
 
 const HomePage = () => {
   return (
-    <div>
-      <h1 className='text-6xl'>Hello World !</h1>
+    <div className='container mx-auto flex flex-col items-center'>
+      <Banner />
     </div>
   )
 }
