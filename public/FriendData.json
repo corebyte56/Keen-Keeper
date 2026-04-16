@@ -1,0 +1,301 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Morgan",
+    "picture": "https://i.pravatar.cc/150?img=1",
+    "email": "alice.morgan@gmail.com",
+    "days_since_contact": 3,
+    "status": "active",
+    "tags": [
+      "college",
+      "close friend"
+    ],
+    "bio": "Met at NYU freshman orientation. Love going to museums together.",
+    "goal": 7,
+    "next_due_date": "2025-04-20"
+  },
+  {
+    "id": 2,
+    "name": "Brian Okafor",
+    "picture": "https://i.pravatar.cc/150?img=12",
+    "email": "brian.okafor@yahoo.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": [
+      "work",
+      "mentor"
+    ],
+    "bio": "My former manager at Deloitte. Helped me land my first big promotion.",
+    "goal": 14,
+    "next_due_date": "2025-04-10"
+  },
+  {
+    "id": 3,
+    "name": "Clara Nguyen",
+    "picture": "https://i.pravatar.cc/150?img=5",
+    "email": "clara.nguyen@outlook.com",
+    "days_since_contact": 1,
+    "status": "active",
+    "tags": [
+      "family",
+      "sister"
+    ],
+    "bio": "Younger sister. We call every Sunday morning without fail.",
+    "goal": 7,
+    "next_due_date": "2025-04-22"
+  },
+  {
+    "id": 4,
+    "name": "David Rosenberg",
+    "picture": "https://i.pravatar.cc/150?img=15",
+    "email": "david.r@protonmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": [
+      "childhood friend"
+    ],
+    "bio": "Best friends since 4th grade. Lost touch after he moved to Seattle.",
+    "goal": 30,
+    "next_due_date": "2025-03-28"
+  },
+  {
+    "id": 5,
+    "name": "Eva Martinez",
+    "picture": "https://i.pravatar.cc/150?img=9",
+    "email": "eva.m@hotmail.com",
+    "days_since_contact": 10,
+    "status": "active",
+    "tags": [
+      "college",
+      "study group"
+    ],
+    "bio": "We survived organic chemistry together. Now she is a doctor.",
+    "goal": 14,
+    "next_due_date": "2025-04-27"
+  },
+  {
+    "id": 6,
+    "name": "Felix Huang",
+    "picture": "https://i.pravatar.cc/150?img=18",
+    "email": "felix.huang@gmail.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": [
+      "networking",
+      "tech"
+    ],
+    "bio": "Met at a React conference in 2022. We share side project ideas.",
+    "goal": 30,
+    "next_due_date": "2025-03-15"
+  },
+  {
+    "id": 7,
+    "name": "Grace Adeyemi",
+    "picture": "https://i.pravatar.cc/150?img=47",
+    "email": "grace.adeyemi@gmail.com",
+    "days_since_contact": 5,
+    "status": "active",
+    "tags": [
+      "close friend",
+      "church"
+    ],
+    "bio": "We volunteered together at a community kitchen. Incredibly kind person.",
+    "goal": 7,
+    "next_due_date": "2025-04-24"
+  },
+  {
+    "id": 8,
+    "name": "Henry Johansson",
+    "picture": "https://i.pravatar.cc/150?img=53",
+    "email": "henry.j@work.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": [
+      "work",
+      "peer"
+    ],
+    "bio": "Colleague from the Berlin office. We collaborate on product specs.",
+    "goal": 14,
+    "next_due_date": "2025-04-08"
+  },
+  {
+    "id": 9,
+    "name": "Isla Patel",
+    "picture": "https://i.pravatar.cc/150?img=25",
+    "email": "isla.patel@icloud.com",
+    "days_since_contact": 2,
+    "status": "active",
+    "tags": [
+      "neighbor",
+      "yoga"
+    ],
+    "bio": "Lives two floors down. We do Saturday morning yoga in the park.",
+    "goal": 7,
+    "next_due_date": "2025-04-21"
+  },
+  {
+    "id": 10,
+    "name": "James Okonkwo",
+    "picture": "https://i.pravatar.cc/150?img=33",
+    "email": "james.ok@gmail.com",
+    "days_since_contact": 90,
+    "status": "overdue",
+    "tags": [
+      "old friend",
+      "college"
+    ],
+    "bio": "Roommate sophomore year. Haven't spoken properly since graduation.",
+    "goal": 60,
+    "next_due_date": "2025-02-18"
+  },
+  {
+    "id": 11,
+    "name": "Karen Lim",
+    "picture": "https://i.pravatar.cc/150?img=49",
+    "email": "karen.lim@gmail.com",
+    "days_since_contact": 4,
+    "status": "active",
+    "tags": [
+      "family",
+      "cousin"
+    ],
+    "bio": "Cousin who lives in Vancouver. We bond over K-dramas and cooking.",
+    "goal": 14,
+    "next_due_date": "2025-04-23"
+  },
+  {
+    "id": 12,
+    "name": "Leo Fernandez",
+    "picture": "https://i.pravatar.cc/150?img=57",
+    "email": "leo.f@startup.io",
+    "days_since_contact": 35,
+    "status": "overdue",
+    "tags": [
+      "startup",
+      "investor"
+    ],
+    "bio": "Angel investor who gave me my first check. Need to keep the relationship warm.",
+    "goal": 21,
+    "next_due_date": "2025-04-02"
+  },
+  {
+    "id": 13,
+    "name": "Mia Kowalski",
+    "picture": "https://i.pravatar.cc/150?img=44",
+    "email": "mia.k@design.co",
+    "days_since_contact": 6,
+    "status": "active",
+    "tags": [
+      "friend",
+      "design"
+    ],
+    "bio": "UX designer I met at a Dribbble meetup. We critique each other's work.",
+    "goal": 14,
+    "next_due_date": "2025-04-23"
+  },
+  {
+    "id": 14,
+    "name": "Nathan Brooks",
+    "picture": "https://i.pravatar.cc/150?img=65",
+    "email": "nbrooks@gmail.com",
+    "days_since_contact": 50,
+    "status": "overdue",
+    "tags": [
+      "mentor",
+      "community"
+    ],
+    "bio": "Runs a local coding bootcamp. Huge source of career advice for me.",
+    "goal": 30,
+    "next_due_date": "2025-03-21"
+  },
+  {
+    "id": 15,
+    "name": "Olivia Chen",
+    "picture": "https://i.pravatar.cc/150?img=39",
+    "email": "olivia.chen@gmail.com",
+    "days_since_contact": 7,
+    "status": "active",
+    "tags": [
+      "book club",
+      "friend"
+    ],
+    "bio": "We run a monthly book club together. Currently reading Pachinko.",
+    "goal": 14,
+    "next_due_date": "2025-04-24"
+  },
+  {
+    "id": 16,
+    "name": "Paul Schneider",
+    "picture": "https://i.pravatar.cc/150?img=70",
+    "email": "paul.s@company.de",
+    "days_since_contact": 28,
+    "status": "overdue",
+    "tags": [
+      "work",
+      "partner"
+    ],
+    "bio": "Our main point of contact at our German partner agency.",
+    "goal": 21,
+    "next_due_date": "2025-04-03"
+  },
+  {
+    "id": 17,
+    "name": "Qian Liu",
+    "picture": "https://i.pravatar.cc/150?img=27",
+    "email": "qian.liu@outlook.com",
+    "days_since_contact": 0,
+    "status": "active",
+    "tags": [
+      "close friend",
+      "travel"
+    ],
+    "bio": "Travel buddy. We just got back from a trip through Southeast Asia.",
+    "goal": 7,
+    "next_due_date": "2025-04-24"
+  },
+  {
+    "id": 18,
+    "name": "Rachel Kim",
+    "picture": "https://i.pravatar.cc/150?img=43",
+    "email": "rachel.kim@nyu.edu",
+    "days_since_contact": 14,
+    "status": "active",
+    "tags": [
+      "college",
+      "professor"
+    ],
+    "bio": "My old thesis advisor. Still meets me for coffee when I am in the city.",
+    "goal": 30,
+    "next_due_date": "2025-05-17"
+  },
+  {
+    "id": 19,
+    "name": "Sam Torres",
+    "picture": "https://i.pravatar.cc/150?img=60",
+    "email": "sam.t@freelance.com",
+    "days_since_contact": 40,
+    "status": "overdue",
+    "tags": [
+      "freelance",
+      "client"
+    ],
+    "bio": "Repeat client for web projects. Needs regular check-ins to stay engaged.",
+    "goal": 30,
+    "next_due_date": "2025-03-31"
+  },
+  {
+    "id": 20,
+    "name": "Tina Wallace",
+    "picture": "https://i.pravatar.cc/150?img=32",
+    "email": "tina.w@gmail.com",
+    "days_since_contact": 9,
+    "status": "active",
+    "tags": [
+      "gym",
+      "friend"
+    ],
+    "bio": "Workout partner since 2021. We keep each other accountable every week.",
+    "goal": 14,
+    "next_due_date": "2025-04-26"
+  }
+]
