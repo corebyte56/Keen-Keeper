@@ -21,17 +21,19 @@ export const router = createBrowserRouter([
       {
         path: "/FriendDetails/:Id",
         element: <FriendDetails />,
-        loader: () => fetch('/friendData.json')
+        loader: async () => {
+          const res = await fetch("/friendData.json");
+          return res.json();
+        },
       },
       {
-        path: '/timeline',
-        element: <TimeLine />
+        path: "/timeline",
+        element: <TimeLine />,
       },
       {
-        path: '/States',
-        element: <States />
-      }
+        path: "/States",
+        element: <States />,
+      },
     ],
   },
 ]);
-
