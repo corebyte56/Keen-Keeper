@@ -6,10 +6,7 @@
     "email": "alice.morgan@gmail.com",
     "days_since_contact": 3,
     "status": "active",
-    "tags": [
-      "college",
-      "close friend"
-    ],
+    "tags": ["friend", "college"],
     "bio": "Met at NYU freshman orientation. Love going to museums together.",
     "goal": 7,
     "next_due_date": "2025-04-20"
@@ -21,10 +18,7 @@
     "email": "brian.okafor@yahoo.com",
     "days_since_contact": 22,
     "status": "overdue",
-    "tags": [
-      "work",
-      "mentor"
-    ],
+    "tags": ["work", "mentor"],
     "bio": "My former manager at Deloitte. Helped me land my first big promotion.",
     "goal": 14,
     "next_due_date": "2025-04-10"
@@ -36,11 +30,8 @@
     "email": "clara.nguyen@outlook.com",
     "days_since_contact": 1,
     "status": "active",
-    "tags": [
-      "family",
-      "sister"
-    ],
-    "bio": "Younger sister. We call every Sunday morning without fail.",
+    "tags": ["friend", "mentor"],
+    "bio": "Study partner from college. Now works as a UX researcher.",
     "goal": 7,
     "next_due_date": "2025-04-22"
   },
@@ -51,9 +42,7 @@
     "email": "david.r@protonmail.com",
     "days_since_contact": 45,
     "status": "overdue",
-    "tags": [
-      "childhood friend"
-    ],
+    "tags": ["friend", "college"],
     "bio": "Best friends since 4th grade. Lost touch after he moved to Seattle.",
     "goal": 30,
     "next_due_date": "2025-03-28"
@@ -65,10 +54,7 @@
     "email": "eva.m@hotmail.com",
     "days_since_contact": 10,
     "status": "active",
-    "tags": [
-      "college",
-      "study group"
-    ],
+    "tags": ["college", "mentor"],
     "bio": "We survived organic chemistry together. Now she is a doctor.",
     "goal": 14,
     "next_due_date": "2025-04-27"
@@ -80,10 +66,7 @@
     "email": "felix.huang@gmail.com",
     "days_since_contact": 60,
     "status": "overdue",
-    "tags": [
-      "networking",
-      "tech"
-    ],
+    "tags": ["work", "mentor"],
     "bio": "Met at a React conference in 2022. We share side project ideas.",
     "goal": 30,
     "next_due_date": "2025-03-15"
@@ -95,10 +78,7 @@
     "email": "grace.adeyemi@gmail.com",
     "days_since_contact": 5,
     "status": "active",
-    "tags": [
-      "close friend",
-      "church"
-    ],
+    "tags": ["friend", "college"],
     "bio": "We volunteered together at a community kitchen. Incredibly kind person.",
     "goal": 7,
     "next_due_date": "2025-04-24"
@@ -110,10 +90,7 @@
     "email": "henry.j@work.com",
     "days_since_contact": 18,
     "status": "overdue",
-    "tags": [
-      "work",
-      "peer"
-    ],
+    "tags": ["work", "college"],
     "bio": "Colleague from the Berlin office. We collaborate on product specs.",
     "goal": 14,
     "next_due_date": "2025-04-08"
@@ -125,10 +102,7 @@
     "email": "isla.patel@icloud.com",
     "days_since_contact": 2,
     "status": "active",
-    "tags": [
-      "neighbor",
-      "yoga"
-    ],
+    "tags": ["friend", "mentor"],
     "bio": "Lives two floors down. We do Saturday morning yoga in the park.",
     "goal": 7,
     "next_due_date": "2025-04-21"
@@ -140,10 +114,7 @@
     "email": "james.ok@gmail.com",
     "days_since_contact": 90,
     "status": "overdue",
-    "tags": [
-      "old friend",
-      "college"
-    ],
+    "tags": ["friend", "college"],
     "bio": "Roommate sophomore year. Haven't spoken properly since graduation.",
     "goal": 60,
     "next_due_date": "2025-02-18"
@@ -155,10 +126,7 @@
     "email": "karen.lim@gmail.com",
     "days_since_contact": 4,
     "status": "active",
-    "tags": [
-      "family",
-      "cousin"
-    ],
+    "tags": ["friend", "mentor"],
     "bio": "Cousin who lives in Vancouver. We bond over K-dramas and cooking.",
     "goal": 14,
     "next_due_date": "2025-04-23"
@@ -170,10 +138,7 @@
     "email": "leo.f@startup.io",
     "days_since_contact": 35,
     "status": "overdue",
-    "tags": [
-      "startup",
-      "investor"
-    ],
+    "tags": ["work", "mentor"],
     "bio": "Angel investor who gave me my first check. Need to keep the relationship warm.",
     "goal": 21,
     "next_due_date": "2025-04-02"
@@ -185,10 +150,7 @@
     "email": "mia.k@design.co",
     "days_since_contact": 6,
     "status": "active",
-    "tags": [
-      "friend",
-      "design"
-    ],
+    "tags": ["friend", "college"],
     "bio": "UX designer I met at a Dribbble meetup. We critique each other's work.",
     "goal": 14,
     "next_due_date": "2025-04-23"
@@ -200,10 +162,7 @@
     "email": "nbrooks@gmail.com",
     "days_since_contact": 50,
     "status": "overdue",
-    "tags": [
-      "mentor",
-      "community"
-    ],
+    "tags": ["mentor", "work"],
     "bio": "Runs a local coding bootcamp. Huge source of career advice for me.",
     "goal": 30,
     "next_due_date": "2025-03-21"
@@ -215,10 +174,7 @@
     "email": "olivia.chen@gmail.com",
     "days_since_contact": 7,
     "status": "active",
-    "tags": [
-      "book club",
-      "friend"
-    ],
+    "tags": ["friend", "college"],
     "bio": "We run a monthly book club together. Currently reading Pachinko.",
     "goal": 14,
     "next_due_date": "2025-04-24"
@@ -230,10 +186,7 @@
     "email": "paul.s@company.de",
     "days_since_contact": 28,
     "status": "overdue",
-    "tags": [
-      "work",
-      "partner"
-    ],
+    "tags": ["work", "mentor"],
     "bio": "Our main point of contact at our German partner agency.",
     "goal": 21,
     "next_due_date": "2025-04-03"
@@ -245,10 +198,7 @@
     "email": "qian.liu@outlook.com",
     "days_since_contact": 0,
     "status": "active",
-    "tags": [
-      "close friend",
-      "travel"
-    ],
+    "tags": ["friend", "college"],
     "bio": "Travel buddy. We just got back from a trip through Southeast Asia.",
     "goal": 7,
     "next_due_date": "2025-04-24"
@@ -260,11 +210,8 @@
     "email": "rachel.kim@nyu.edu",
     "days_since_contact": 14,
     "status": "active",
-    "tags": [
-      "college",
-      "professor"
-    ],
-    "bio": "My old thesis advisor. Still meets me for coffee when I am in the city.",
+    "tags": ["college", "mentor"],
+    "bio": "My old thesis advisor. Still meets me for coffee when in the city.",
     "goal": 30,
     "next_due_date": "2025-05-17"
   },
@@ -275,10 +222,7 @@
     "email": "sam.t@freelance.com",
     "days_since_contact": 40,
     "status": "overdue",
-    "tags": [
-      "freelance",
-      "client"
-    ],
+    "tags": ["work", "mentor"],
     "bio": "Repeat client for web projects. Needs regular check-ins to stay engaged.",
     "goal": 30,
     "next_due_date": "2025-03-31"
@@ -290,10 +234,7 @@
     "email": "tina.w@gmail.com",
     "days_since_contact": 9,
     "status": "active",
-    "tags": [
-      "gym",
-      "friend"
-    ],
+    "tags": ["friend", "college"],
     "bio": "Workout partner since 2021. We keep each other accountable every week.",
     "goal": 14,
     "next_due_date": "2025-04-26"
