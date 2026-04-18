@@ -7,7 +7,8 @@ export const friendContext = createContext();
 const Context = ({ children }) => {
   const [friendsData, setFriendsData] = useState(FriendData);
   const [callFunction, setCallFunction] = useState([]); 
-  const [textFunction, setTextFunction] = useState([])
+  const [textFunction, setTextFunction] = useState([]);
+  const [videoFunction, setVideoFunction] = useState([])
 
   // call
   const handleCall = (findFriends) => {
@@ -35,6 +36,19 @@ const Context = ({ children }) => {
     console.log(findTexts);
   };
 
+  // video
+
+   const handleVideo = (findFriends) => {
+    const findVideos = friendsData.find((friend) => friend.id === findFriends.id);
+
+    if (findVideos) {
+      setVideoFunction([...videoFunction, findVideos]);
+      toast.success(`Video Call to ${findFriends.name}`)
+    }
+
+    console.log(findVideos);
+  };
+
   // -----------------------------------------------------------------------------------
   const data = {
     setFriendsData,
@@ -42,7 +56,9 @@ const Context = ({ children }) => {
     handleCall,
     callFunction,
     handleText,
-    textFunction
+    textFunction,
+    handleVideo,
+    videoFunction
   };
   return (
     <friendContext.Provider value={data}>{children}</friendContext.Provider>

@@ -12,7 +12,7 @@ import { friendContext } from "../../Context/Context";
 
 const FriendDetails = () => {
   // Context   
-  const { handleCall, handleText } = useContext(friendContext);
+  const { handleCall, handleText, handleVideo } = useContext(friendContext);
 
   const { Id } = useParams();
 
@@ -168,6 +168,7 @@ const FriendDetails = () => {
               </button>
 
               <button
+              onClick={()=>handleVideo(findFriends)}
                 className="flex flex-col items-center gap-2 p-4 rounded-xl border cursor-pointer
               hover:-translate-y-1 hover:shadow-lg hover:scale-105 transition-all duration-200"
               >
