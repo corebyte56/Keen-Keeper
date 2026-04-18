@@ -1,9 +1,10 @@
 import React from 'react'
+import TimeLineHeader from '../../Compnents/TimeLineHeader/TimeLineHeader'
 
 const TimeLine = () => {
   return (
-    <div>
-      TimeLine
+    <div className='container mx-auto my-20'>
+      <TimeLineHeader />
     </div>
   )
 }

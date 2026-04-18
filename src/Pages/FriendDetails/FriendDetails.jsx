@@ -16,7 +16,7 @@ const FriendDetails = () => {
   const friends = useLoaderData();
 
   const findFriends = friends.find((fr) => fr.id == Id);
-//   console.log(Id);
+  //   console.log(Id);
 
   const {
     name,
@@ -35,11 +35,9 @@ const FriendDetails = () => {
   }
 
   return (
-     <div className="container mx-auto my-10 p-4">
-      
+    <div className="container mx-auto my-10 p-4">
       {/* MAIN CARD */}
       <div className="bg-white rounded-2xl shadow p-6 grid md:grid-cols-3 gap-6">
-
         {/* LEFT PROFILE */}
         <div className="space-y-4 text-center md:border-r md:pr-4">
           <img
@@ -76,21 +74,27 @@ const FriendDetails = () => {
 
           {/* SIDE BUTTONS */}
           <div className="space-y-2 pt-4">
-            <button className="flex items-center justify-center gap-2 w-full p-2 rounded-lg border text-sm font-semibold cursor-pointer
-            hover:-translate-y-1 hover:shadow-md hover:scale-[1.03] transition-all duration-200">
+            <button
+              className="flex items-center justify-center gap-2 w-full p-2 rounded-lg border text-sm font-semibold cursor-pointer
+            hover:-translate-y-1 hover:shadow-md hover:scale-[1.03] transition-all duration-200"
+            >
               <AlarmClock />
               Snooze 2 Weeks
             </button>
 
-            <button className="flex items-center justify-center gap-2 w-full p-2 rounded-lg border text-sm font-semibold cursor-pointer
-            hover:-translate-y-1 hover:shadow-md hover:scale-[1.03] transition-all duration-200">
+            <button
+              className="flex items-center justify-center gap-2 w-full p-2 rounded-lg border text-sm font-semibold cursor-pointer
+            hover:-translate-y-1 hover:shadow-md hover:scale-[1.03] transition-all duration-200"
+            >
               <Archive />
               Archive
             </button>
 
-            <button className="flex items-center justify-center gap-2 w-full p-2 rounded-lg border text-sm font-semibold cursor-pointer
+            <button
+              className="flex items-center justify-center gap-2 w-full p-2 rounded-lg border text-sm font-semibold cursor-pointer
             text-red-500 border-red-200
-            hover:-translate-y-1 hover:shadow-md hover:scale-[1.03] transition-all duration-200">
+            hover:-translate-y-1 hover:shadow-md hover:scale-[1.03] transition-all duration-200"
+            >
               <Trash2 />
               Delete
             </button>
@@ -99,22 +103,17 @@ const FriendDetails = () => {
 
         {/* RIGHT SIDE */}
         <div className="md:col-span-2 space-y-4">
-
           {/* STATS */}
           <div className="grid md:grid-cols-3 gap-4">
             <div className="bg-gray-50 rounded-xl p-5 text-center">
               <h2 className="text-2xl font-bold text-green-700">
                 {days_since_contact}
               </h2>
-              <p className="text-sm text-gray-500">
-                Days Since Contact
-              </p>
+              <p className="text-sm text-gray-500">Days Since Contact</p>
             </div>
 
             <div className="bg-gray-50 rounded-xl p-5 text-center">
-              <h2 className="text-2xl font-bold text-green-700">
-                {goal}
-              </h2>
+              <h2 className="text-2xl font-bold text-green-700">{goal}</h2>
               <p className="text-sm text-gray-500">Goal (Days)</p>
             </div>
 
@@ -129,12 +128,9 @@ const FriendDetails = () => {
           {/* GOAL */}
           <div className="bg-gray-50 rounded-xl p-5 flex justify-between items-center">
             <div>
-              <h3 className="font-semibold text-gray-700">
-                Relationship Goal
-              </h3>
+              <h3 className="font-semibold text-gray-700">Relationship Goal</h3>
               <p className="text-sm text-gray-500">
-                Connect every{" "}
-                <span className="font-bold">{goal} days</span>
+                Connect every <span className="font-bold">{goal} days</span>
               </p>
             </div>
 
@@ -145,25 +141,29 @@ const FriendDetails = () => {
 
           {/* QUICK ACTION */}
           <div className="bg-gray-50 rounded-xl p-5">
-            <h3 className="mb-3 font-semibold text-gray-700">
-              Quick Check-In
-            </h3>
+            <h3 className="mb-3 font-semibold text-gray-700">Quick Check-In</h3>
 
             <div className="grid grid-cols-3 gap-4">
-              <button className="flex flex-col items-center gap-2 p-4 rounded-xl border cursor-pointer
-              hover:-translate-y-1 hover:shadow-lg hover:scale-105 transition-all duration-200">
+              <button
+                className="flex flex-col items-center gap-2 p-4 rounded-xl border cursor-pointer
+              hover:-translate-y-1 hover:shadow-lg hover:scale-105 transition-all duration-200"
+              >
                 <Phone />
                 <span className="text-sm font-semibold">Call</span>
               </button>
 
-             <button className="flex flex-col items-center gap-2 p-4 rounded-xl border cursor-pointer
-              hover:-translate-y-1 hover:shadow-lg hover:scale-105 transition-all duration-200">
+              <button
+                className="flex flex-col items-center gap-2 p-4 rounded-xl border cursor-pointer
+              hover:-translate-y-1 hover:shadow-lg hover:scale-105 transition-all duration-200"
+              >
                 <MessageSquare />
                 <span className="text-sm">Text</span>
               </button>
 
-            <button className="flex flex-col items-center gap-2 p-4 rounded-xl border cursor-pointer
-              hover:-translate-y-1 hover:shadow-lg hover:scale-105 transition-all duration-200">
+              <button
+                className="flex flex-col items-center gap-2 p-4 rounded-xl border cursor-pointer
+              hover:-translate-y-1 hover:shadow-lg hover:scale-105 transition-all duration-200"
+              >
                 <Video />
                 <span className="text-sm">Video</span>
               </button>
@@ -174,36 +174,5 @@ const FriendDetails = () => {
     </div>
   );
 };
-
-/* STAT CARD */
-const Stat = ({ title, value }) => (
-  <div className="bg-white rounded-xl shadow p-5 text-center">
-    <h2 className="text-2xl font-bold text-green-700">{value}</h2>
-    <p className="text-sm text-gray-500">{title}</p>
-  </div>
-);
-
-/* ACTION BUTTON (TOP) */
-const ActionBtn = ({ icon, label }) => (
-  <button
-    className="flex flex-col items-center justify-center gap-2 p-4 rounded-xl border 
-  hover:-translate-y-1 hover:shadow-lg hover:scale-105 transition-all duration-300"
-  >
-    {icon}
-    <span className="text-sm">{label}</span>
-  </button>
-);
-
-/* SIDE BUTTON */
-const SideBtn = ({ icon, label, danger }) => (
-  <button
-    className={`flex items-center gap-3 w-full p-3 rounded-lg border 
-    hover:-translate-y-1 hover:shadow-md hover:scale-[1.02] transition-all duration-300
-    ${danger ? "text-red-500 border-red-200" : "text-gray-700"}`}
-  >
-    {icon}
-    {label}
-  </button>
-);
 
 export default FriendDetails;
