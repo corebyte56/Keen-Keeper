@@ -5,8 +5,7 @@ import { Inbox } from "lucide-react";
 import { friendContext } from "../../Context/Context";
 
 const TimeLine = () => {
-  const { callFunction, textFunction, videoFunction } =
-    useContext(friendContext);
+  const { callFunction, textFunction, videoFunction } = useContext(friendContext);
 
   const isEmpty =
     callFunction.length === 0 &&

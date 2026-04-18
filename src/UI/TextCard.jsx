@@ -1,29 +1,33 @@
-import { MessageSquare, Text } from 'lucide-react'
-import React from 'react'
+import { MessageSquare, Text } from "lucide-react";
+import React, { useContext } from "react";
+import { friendContext } from "../Context/Context";
 
-const TextCard = ({text}) => {
+const TextCard = ({ text }) => {
+  const { time, date } = useContext(friendContext);
   return (
     <div
-            className="flex items-center gap-4 bg-white rounded-xl shadow-sm  p-4 
+      className="flex items-center gap-4 bg-white rounded-xl shadow-sm  p-4 
       hover:shadow-md hover:-translate-y-1 transition-all duration-300 cursor-pointer"
-          >
-            {/* Icon */}
-            <div className="text-2xl">
-              <MessageSquare />
-            </div>
+    >
+      {/* Icon */}
+      <div className="text-2xl">
+        <MessageSquare />
+      </div>
 
-            {/* Text */}
-            <div>
-              <h3 className="font-semibold text-gray-800 flex items-center gap-3 py-3">
-                <p className="text-xl">text</p>
-                <span className="text-lg text-gray-500 font-normal">
-                  with {text.name}
-                </span>
-              </h3>
-              <p className="font-medium  text-gray-500">{text.next_due_date}</p>
-            </div>
-          </div>
-  )
-}
+      {/* Text */}
+      <div>
+        <h3 className="font-semibold text-gray-800 flex items-center gap-3 py-3">
+          <p className="text-xl">text</p>
+          <span className="text-lg text-gray-500 font-normal">
+            with {text.name}
+          </span>
+        </h3>
+        <p className="font-medium text-gray-500">
+          {date} • {time}
+        </p>
+      </div>
+    </div>
+  );
+};
 
-export default TextCard
+export default TextCard;

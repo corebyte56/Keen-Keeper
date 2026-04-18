@@ -5,28 +5,35 @@ import TextCard from "../../UI/TextCard";
 import VideoCard from "../../UI/VideoCard";
 
 const TimeLineCard = () => {
-  const { callFunction, textFunction, videoFunction } = useContext(friendContext);
+
+  
+  const { callFunction, textFunction, videoFunction, filter } = useContext(friendContext);
 
   return (
     <div>
-      {callFunction.map((call) => (
-        <div className="container mx-auto p-4">
-          <CallCard key = {call.id} call = {call}/>
-        </div>
-      ))}
+      
+      {(filter === "all" || filter === "call") &&
+        callFunction.map((call, index) => (
+          <div className="container mx-auto p-4" key={`call-${index}`}>
+            <CallCard call={call} />
+          </div>
+        ))}
 
-      {textFunction.map((text) => (
-        <div className="container mx-auto p-4">
-          <TextCard key = {text.id} text = {text}/>
-        </div>
-      ))}
+      
+      {(filter === "all" || filter === "text") &&
+        textFunction.map((text, index) => (
+          <div className="container mx-auto p-4" key={`text-${index}`}>
+            <TextCard text={text} />
+          </div>
+        ))}
 
-      {videoFunction.map((video) => (
-        <div className="container mx-auto p-4">
-          <VideoCard key = {video.id} video = {video}/>
-        </div>
-      ))}
-
+     
+      {(filter === "all" || filter === "video") &&
+        videoFunction.map((video, index) => (
+          <div className="container mx-auto p-4" key={`video-${index}`}>
+            <VideoCard video={video} />
+          </div>
+        ))}
     </div>
   );
 };
