@@ -21,11 +21,11 @@ const TimeLineCard = () => {
             <div>
               <h3 className="font-semibold text-gray-800 flex items-center gap-3 py-3">
                 <p className="text-xl">Call</p>
-                <span className="text-gray-500 font-normal">
-                  {call.name}
+                <span className="text-lg text-gray-500 font-normal">
+                 with {call.name}
                 </span>
               </h3>
-              <p className="text-sm text-gray-500">{call.next_due_date}</p>
+              <p className="font-medium  text-gray-500">{call.next_due_date}</p>
             </div>
           </div>
         </div>
