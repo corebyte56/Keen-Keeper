@@ -7,6 +7,7 @@ import MainLayout from "../Layout/mainLayout";
 import TimeLine from "../Pages/TimeLine/TimeLine";
 import States from "../Pages/States/States";
 import FriendDetails from "../Pages/FriendDetails/FriendDetails";
+import FriendData from "../data/friendData.json";
 
 export const router = createBrowserRouter([
   {
@@ -19,24 +20,9 @@ export const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "/FriendDetails/:Id",
+        path: `/FriendDetails/:Id`,
         element: <FriendDetails />,
-        
-        loader: async () => {
-          try {
-            
-            const res = await fetch(
-              `${window.location.origin}/friendData.json`,
-            );
-            if (!res.ok) {
-              throw new Error("Network response was not ok");
-            }
-            return await res.json();
-          } catch (error) {
-            console.error("Fetch error:", error);
-            return []; 
-          }
-        },
+        loader: () => FriendData,
       },
       {
         path: "/timeline",
