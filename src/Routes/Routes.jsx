@@ -8,6 +8,7 @@ import TimeLine from "../Pages/TimeLine/TimeLine";
 import States from "../Pages/States/States";
 import FriendDetails from "../Pages/FriendDetails/FriendDetails";
 import FriendData from "../Data/friendData.json";
+import NotFound from "../Pages/NotFound/NotFound";
 
 export const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
       {
         path: "/States",
         element: <States />,
+      },
+      {
+        path: "*",
+        element: <NotFound />,
       },
     ],
   },
