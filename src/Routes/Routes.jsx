@@ -7,7 +7,7 @@ import MainLayout from "../Layout/mainLayout";
 import TimeLine from "../Pages/TimeLine/TimeLine";
 import States from "../Pages/States/States";
 import FriendDetails from "../Pages/FriendDetails/FriendDetails";
-
+import FriendData from "../../public/friendData.json";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -21,9 +21,9 @@ export const router = createBrowserRouter([
       {
         path: "/FriendDetails/:Id",
         element: <FriendDetails />,
-        loader: async () => {
-          const res = await fetch("/friendData.json");
-          return res.json();
+
+        loader: () => {
+          return FriendData; 
         },
       },
       {
