@@ -1,6 +1,4 @@
-import React, { Children } from "react";
-import { useEffect, useState } from "react";
-import { createContext } from "react";
+import React, { useEffect, useState, createContext } from "react";
 
 export const friendContext = createContext();
 
@@ -8,10 +6,18 @@ const Context = ({ children }) => {
   const [friendsData, setFriendsData] = useState([]);
 
   const handleFriendsData = async () => {
-    const res = await fetch("/friendData.json");
-    const data = await res.json();
-    setFriendsData(data);
-    // console.log(data);
+    try {
+      const res = await fetch("/friendData.json");
+
+      if (!res.ok) {
+        throw new Error("(404)");
+      }
+
+      const data = await res.json();
+      setFriendsData(data);
+    } catch (error) {
+      console.error("Data not found:", error);
+    }
   };
 
   useEffect(() => {
